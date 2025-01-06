@@ -1,0 +1,101 @@
+[Running] python -u "c:finacial_data_rag.py"
+Stock data saved to data\stock_data.csv
+Vector store built with 377 documents
+
+Query: What were the stock prices for AAPL last month?
+
+Result 1:
+Content: September 
+2018September 
+2019September 
+2020September 
+2021September 
+2022September 
+2023
+Apple Inc. $ 100 $ 98 $ 204 $ 269 $ 277 $ 317 
+S&P 500 Index $ 100 $ 104 $ 118 $ 161 $ 136 $ 160 
+Dow Jones U...
+Source: data\APPLE_10_K_Q4_2023.pdf
+Data Type: pdf
+Similarity Score: 0.3070020079612732
+
+Result 2:
+Content: PART II
+Item 5. Market for Registrant s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity 
+Securities
+The Company s common stock is traded on The Nasdaq Stock Market LLC under ...
+Source: data\APPLE_10_K_Q4_2023.pdf
+Data Type: pdf
+Similarity Score: 0.3235507607460022
+
+Result 3:
+Content: Company  Stock Performance
+The following graph shows a comparison of five-year cumulative total shareholder return, calculated on a dividend-reinvested 
+basis, for the Company, the S&P 500 Index and t...
+Source: data\APPLE_10_K_Q4_2023.pdf
+Data Type: pdf
+Similarity Score: 0.34351617097854614
+
+Result 4:
+Content: awards  (2,099)  (3,454)  (4,151) 
+Common stock repurchased  (77,046)  (90,186)  (85,502) 
+Ending balances  (214)  (3,068)  5,562 
+Accumulated other comprehensive income/(loss):
+Beginning balances  (1...
+Source: data\APPLE_10_K_Q4_2023.pdf
+Data Type: pdf
+Similarity Score: 0.37602341175079346
+
+Result 5:
+Content: Apple Inc.
+CONSOLIDATED STATEMENTS OF SHAREHOLDERS  EQUITY
+(In millions, except per-share amounts)
+Years ended
+September 30,
+2023September 24,
+2022September 25,
+2021
+Total shareholders  equity, beginn...
+Source: data\APPLE_10_K_Q4_2023.pdf
+Data Type: pdf
+Similarity Score: 0.38689857721328735
+
+Query: What market trends are discussed in the PDF reports?
+
+Result 1:
+Content: the markets in which the Company competes have from time to time experienced little to no growth or contracted overall.
+Additionally, the Company faces significant competition as competitors imitate t...
+Source: data\APPLE_10_K_Q4_2023.pdf
+Data Type: pdf
+Similarity Score: 0.39323803782463074
+
+Result 2:
+Content: product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid 
+adoption of technological advancements by competitors, and price sensit...
+Source: data\APPLE_10_K_Q4_2023.pdf
+Data Type: pdf
+Similarity Score: 0.4150758981704712
+
+Result 3:
+Content: Global markets for the Company s products and services are highly competitive and subject to rapid technological 
+change, and the Company may be unable to compete effectively in these markets.
+The Com...
+Source: data\APPLE_10_K_Q4_2023.pdf
+Data Type: pdf
+Similarity Score: 0.4183661639690399
+
+Result 4:
+Content: personal computers and tablets, and PlayStation, Nintendo and Xbox for gaming platforms. This analysis may be based on 
+factors such as the market position of the Company and its products, the anticip...
+Source: data\APPLE_10_K_Q4_2023.pdf
+Data Type: pdf
+Similarity Score: 0.4184509217739105
+
+Result 5:
+Content: Americas, Europe, Greater China, Japan and Rest of Asia Pacific. Americas includes both North and South America. Europe 
+includes European countries, as well as India, the Middle East and Africa. Grea...
+Source: data\APPLE_10_K_Q4_2023.pdf
+Data Type: pdf
+Similarity Score: 0.41967716813087463
+
+[Done] exited with code=0 in 44.987 seconds
