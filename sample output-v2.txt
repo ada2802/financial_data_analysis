@@ -1,0 +1,72 @@
+[Running] python -u "/financial_data_analysis/financial_data_rag_v1.py"
+financial_data_rag_v1.py"
+Stock data saved to data\stock_data.csv
+Processed PDF: data/Alpha_10_k_2022.pdf
+Processed PDF: data/APPLE_10_k_Q4_2023.pdf
+Processed PDF: data/Apple-10-Q4-2024-As-Filed.pdf
+Processed PDF: data/Meta_10_k_2023.pdf
+Error processing video data/earnings_call_q4.mp4: MoviePy error: the file data\earnings_call_q4.mp4 could not be found!
+Please check that you entered the correct path.
+Error processing video data/investor_presentation.mp4: MoviePy error: the file data\investor_presentation.mp4 could not be found!
+Please check that you entered the correct path.
+Processed URL: https://www.microsoft.com/investor/reports/ar24/index.html#
+Processed URL: https://www.linkedin.com/news/story/meta-to-lay-off-another-10k-workers-5194737/
+Vector store built with 1189 documents
+
+Query: What was AAPL's stock performance last month?
+Prompt Type: stock_price
+
+Formatted Response:
+In September 2024, Apple Inc.'s stock price was $430.
+--------------------------------------------------------------------------------
+
+Query: What are the current market trends affecting tech stocks?
+Prompt Type: market_analysis
+
+Formatted Response:
+Key market trends affecting tech stocks include intense competition leading to downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid adoption of technological advancements by competitors, and price sensitivity on the part of consumers and businesses. 
+
+Important factors affecting the market include increasing regulation, government investigations, legal actions, and penalties, as well as the aggressive pricing and low cost structures of competitors who imitate the Company's products and infringe on its intellectual property. Additionally, there is a shortage and significant commodity pricing fluctuations impacting the market.
+
+One notable prediction is that the rapid adoption of technological advancements by competitors will continue to drive innovation and competition in the tech industry. Companies will need to stay ahead of the curve in terms of product development and pricing strategies to remain competitive in the market. Additionally, the increasing regulation and scrutiny of the tech industry may lead to more challenges for companies in terms of compliance and legal issues.
+--------------------------------------------------------------------------------
+
+Query: What are the key financial metrics for the latest quarter?
+Prompt Type: financial_metrics
+
+Formatted Response:
+Key financial metrics for the latest quarter (2024):
+
+1. Total Net Sales: The total net sales for the latest quarter were $394.3 billion, showing a 2% increase compared to the previous quarter. This increase was driven by higher net sales in the Americas and Europe regions.
+
+2. Net Income: The net income for the latest quarter was $99.8 billion, which was higher compared to the previous quarter. This increase in net income can be attributed to the growth in total net sales and effective cost management.
+
+3. Earnings Per Share (EPS): The basic earnings per share for the latest quarter was $6.15, while the diluted earnings per share was $6.11. Both EPS figures showed an improvement compared to the previous quarter, indicating higher profitability per share.
+
+4. Weighted-Average Shares Outstanding: The weighted-average basic shares outstanding for the latest quarter were 16,215,963, showing an increase compared to the previous quarter. This increase in shares outstanding can impact the EPS calculation.
+
+Key Performance Indicators:
+- Revenue Growth: The company experienced a 2% increase in total net sales, driven by higher sales in the Americas and Europe regions.
+- Profitability: The net income increased to $99.8 billion, indicating improved profitability for the company.
+- Earnings Per Share: Both basic and diluted EPS showed an improvement, reflecting higher earnings generated per share.
+
+Comparative Analysis:
+- The company's performance in the latest quarter showed growth in total net sales, net income, and EPS compared to the previous quarter.
+- The increase in weighted-average shares outstanding should be considered when analyzing the EPS figures.
+
+Important Trends:
+- The company's focus on higher net sales in the Americas and Europe regions contributed to the overall growth in total net sales.
+- Effective cost management and profitability improvement led to higher net income for the latest quarter.
+- The increase in weighted-average shares outstanding can impact the EPS calculation and should be monitored for future quarters.
+--------------------------------------------------------------------------------
+
+Query: What recent news events have impacted the market?
+Prompt Type: news_analysis
+
+Formatted Response:
+One recent news event that has impacted the market is the ongoing COVID-19 pandemic. The pandemic has led to widespread lockdowns, travel restrictions, and disruptions to supply chains, which have had a significant impact on the global economy and demand for consumer products. This has resulted in decreased consumer spending, reduced business activity, and increased uncertainty in the market.
+
+Market sentiment has been largely negative due to the uncertainty surrounding the duration and severity of the pandemic. Investors are concerned about the long-term implications of the crisis on businesses and the economy as a whole. This has led to increased volatility in the stock market and a general sense of unease among market participants.
+
+The potential implications of the COVID-19 pandemic on the market are significant. Companies across various industries are facing challenges such as declining revenues, supply chain disruptions, and increased operating costs. Many businesses have been forced to lay off employees or shut down operations entirely, leading to widespread economic hardship. The long-term effects of the pandemic on the market remain uncertain, but it is clear that it will continue to have a significant impact for the foreseeable future.
+--------------------------------------------------------------------------------
