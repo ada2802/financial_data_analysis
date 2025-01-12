@@ -2,6 +2,7 @@ Day1: Jan 6, 2025
 # financial_data_analysis_v1
 
 1. Create your data folder structure:
+
 data/
 ├── stock_data.csv  # Will be auto-generated
 ├── pdfs/
