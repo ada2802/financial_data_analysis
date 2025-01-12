@@ -23,10 +23,11 @@ rag.build_vector_store(
     days=30
 )
 
+Day5: Jan 10, 2025
+# financial_data_analysis_v2
 4. Query across all data sources
 results = rag.query("What were AAPL's stock prices and related news last month?")
 
-Improvment for the next:
-1. connet SEC API to get 10-K report by input tickers
-2. get video news by tickers
-3. improve promt
+Improvement:
+a. added media and investor report URL data input
+b. added promt style for Q&A
